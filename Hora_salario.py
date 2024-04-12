@@ -1,7 +1,14 @@
-number = int(input())
-worked_hour = int(input())
-hour_gain = float(input())
-total = worked_hour * hour_gain
+# nome = str(input())
+# salario = float(input())
+# vendas = float(input())
 
-print("NUMBER = ",number)
-print("SALARY = U$ ", format(total, ".2f"))
+# receber = salario + (vendas * 0.15)
+
+# print(f"TOTAL = R$ {receber:.2f}")
+nome_vendedor=str(input())
+salario_fixo= float(input())
+total_vendas= float(input())
+
+salario_final= salario_fixo + (total_vendas * 0.15)
+
+print("TOTAL = R$ ", salario_final)
